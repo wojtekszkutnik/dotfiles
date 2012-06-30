@@ -4,6 +4,9 @@ alias sv='sudo vim'
 alias vp='vim ~/.bash_profile'
 alias va='vim ~/.bash_aliases'
 
+## Make grep case-insensitive by default ##
+alias grep='grep -i'
+
 ## Keep it clean baby, keep it clean ##
 alias c='clear'
 

@@ -8,6 +8,10 @@
     co = checkout
     br = branch
 
+    up = pull --rebase
+    undo = reset --soft HEAD^
+    uncommit = undo
+
     # Handy git history spelunking functions, proposed on the mailing lists by Junio Hamano
     whois = "!sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"
     whatis = show -s --pretty='tformat:%h (%s, %ad)' --date=short

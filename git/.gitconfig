@@ -2,6 +2,13 @@
     name = Wojtek Szkutnik
     email = wojtek.szkutnik@gmail.com
 [alias]
+    # Shorthands for standard commands
     st='status'
     ci='commit'
+
+    # Handy git history spelunking functions, proposed on the mailing lists by Junio Hamano
+    whois = "!sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"
+    whatis = show -s --pretty='tformat:%h (%s, %ad)' --date=short
+    
+    # Fancy log history
     vlg="log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"

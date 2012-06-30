@@ -33,3 +33,9 @@ alias diff='colordiff'
 function manview {
    man -t $1 | open -f -a /Applications/Preview.app
 }
+
+## Create directory and then enter ##
+function take {
+    mkdir $1
+    cd $1
+}

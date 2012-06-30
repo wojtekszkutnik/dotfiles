@@ -1,3 +1,6 @@
 [user]
-	name = Wojtek Szkutnik
-	email = wojtek.szkutnik@gmail.com
+    name = Wojtek Szkutnik
+    email = wojtek.szkutnik@gmail.com
+[alias]
+    st='status'
+    ci='commit'

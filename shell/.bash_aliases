@@ -16,9 +16,6 @@ alias cd..='cd ..'
 ## Bloody -k ##
 alias apache='sudo apachectl -k' 
 
-## Brew ##
-alias brew='sudo brew'
-
 ## A quick way to get out of current directory ##
 alias ..='cd ..' 
 alias ...='cd ../../' 

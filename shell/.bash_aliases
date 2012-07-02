@@ -10,6 +10,9 @@ alias grep='grep -i'
 ## Keep it clean baby, keep it clean ##
 alias c='clear'
 
+## "Find" shorthand ##
+alias f='sudo find / -name'
+
 ## Most common typo ever ##
 alias cd..='cd ..' 
 

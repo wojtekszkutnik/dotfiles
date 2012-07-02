@@ -44,3 +44,7 @@ alias pstop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 ## sudo ##
 alias pip='sudo pip'
 alias find='sudo find'
+
+## django aliases ##
+alias dm='./manage.py'
+alias dt='./manage.py test' 

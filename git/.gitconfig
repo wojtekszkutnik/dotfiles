@@ -10,7 +10,7 @@
 
     up = pull --rebase
     undo = reset --soft HEAD^
-    uncommit = undo
+    uncommit = reset --soft HEAD^
 
     # Handy git history spelunking functions, proposed on the mailing lists by Junio Hamano
     whois = "!sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"

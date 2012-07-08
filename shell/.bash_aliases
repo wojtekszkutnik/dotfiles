@@ -44,10 +44,17 @@ function take {
 alias pstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 alias pstop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 
+## Mongo ##
+alias mstart='mongod run --config /usr/local/etc/mongod.conf'
+
 ## sudo ##
 alias pip='sudo pip'
 alias find='sudo find'
 
 ## django aliases ##
 alias dm='./manage.py'
-alias dt='./manage.py test' 
+alias dt='./manage.py test'
+
+## git aliases ##
+alias g='git'
+alias gd='git diff' 

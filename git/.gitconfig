@@ -25,3 +25,4 @@
     # Fancy log history
     lg = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
     vlog = !git log -p -40 | vim - -R -c 'set foldmethod=syntax'
+    today = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --stat --since='1 Day Ago'"

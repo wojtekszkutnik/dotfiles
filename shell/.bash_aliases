@@ -55,6 +55,16 @@ alias find='sudo find'
 alias dm='./manage.py'
 alias dt='./manage.py test'
 
-## git aliases ##
+## git aliases - cause I'm a lazy bastard ##
 alias g='git'
 alias gd='git diff' 
+alias gp='git pull --rebase'
+
+function gc(){
+    git commit -m "'$1'";
+}
+
+function gca(){
+    git commit -a  -m "$1";
+}
+

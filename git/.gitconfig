@@ -12,6 +12,9 @@
     undo = reset --soft HEAD^
     uncommit = reset --soft HEAD^
 
+    # Initialise a new repo
+    this = !git init && git add . && git commit -m \"Initial commit\"
+
     # Handy git history spelunking functions, proposed on the mailing lists by Junio Hamano
     whois = "!sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"
     whatis = show -s --pretty='tformat:%h (%s, %ad)' --date=short

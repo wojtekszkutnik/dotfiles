@@ -68,3 +68,6 @@ function gca(){
     git commit -a  -m "$1";
 }
 
+function gcall(){
+    git add -A && git commit  -m "$1";
+}

@@ -3,6 +3,7 @@ alias v='vim'
 alias sv='sudo vim'
 alias vp='vim ~/.bash_profile'
 alias va='vim ~/.bash_aliases'
+alias vg='vim ~/.gitconfig'
 
 ## Make grep case-insensitive by default ##
 alias grep='grep -i'

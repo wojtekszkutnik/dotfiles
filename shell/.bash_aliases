@@ -60,6 +60,7 @@ alias dt='./manage.py test'
 alias g='git'
 alias gd='git diff' 
 alias gp='git pull --rebase'
+alias gs='git status'
 
 function gc(){
     git commit -m "'$1'";

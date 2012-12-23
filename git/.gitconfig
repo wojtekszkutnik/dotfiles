@@ -1,6 +1,9 @@
 [user]
     name = Wojtek Szkutnik
     email = wojtek.szkutnik@gmail.com
+[apply]
+    # Detect whitespace errors when applying a patch
+    whitespace = fix
 [alias]
     # Shorthands for standard commands
     st = status
